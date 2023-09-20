@@ -98,3 +98,12 @@ ul li {
 .alone {
     left: 1px;
 }
+.heart {
+    display: inline-block;
+    position: absolute;
+    top:0;
+    right:0;
+    background-color: white;
+    font-size: 25px;
+    padding: 10px;
+}
