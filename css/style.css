@@ -107,3 +107,21 @@ ul li {
     font-size: 25px;
     padding: 10px;
 }
+.image:hover .first-photo{
+    content: url(../img/1b.webp);
+}
+.image:hover .second-photo{
+    content: url(../img/2b.webp);
+}
+.image:hover .third-photo{
+    content: url(../img/3b.webp);
+}
+.image:hover .fourth-photo{
+    content: url(../img/4b.webp);
+}
+.image:hover .fifth-photo{
+    content: url(../img/5b.webp);
+}
+.image:hover .sixth-photo{
+    content: url(../img/6b.webp);
+}
