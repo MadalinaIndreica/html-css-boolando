@@ -8,6 +8,15 @@
 img {
     max-width: 100%;
 }
+/* COMMONS */
+.container{
+    width: 80%;
+    max-width: 1100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+
 
 /* HEADER */
 header{
@@ -46,4 +55,22 @@ a{
 }
 ul li {
     margin-right: 10px;
+}
+
+/* MAIN */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    width: calc(95% / 3);
+   margin-bottom: 40px;
+    
+}
+.sale {
+    color: red;
+}
+.price {
+    text-decoration: line-through;
 }
